@@ -1,0 +1,84 @@
+header{
+    width: 1320px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin: 1%;
+    background-image: url('https://img.freepik.com/free-vector/console-community-neon-style-banner-gamepad-brick-background_1262-13411.jpg?w=2000&t=st=1678045840~exp=1678046440~hmac=a7dce142f873afb73cbe1e23f9a2f6d3a42838123e4892d85507611058c39320'); 
+    background-size:inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.icon{
+    height: 100px;
+    width: 200px;;
+    border: 1px solid black;
+    border-radius: 15%;
+    float: right;
+}
+
+#game{
+    margin: 1%;
+    font-family:comic-sans;
+    font-size: 50px;
+    color: rgb(255, 242, 0);
+    text-shadow: 0px 0px 30px rgb(255, 247, 18);
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-vector/neon-lights-background-theme_52683-44625.jpg?w=1800&t=st=1677971804~exp=1677972404~hmac=b2e9c996cd9557c5c7be210bc16f25788fc3a998184c3d8bdbee9a9004615e7d');
+    background-size:inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+.videobox{
+    height: 420px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left: 1%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px black;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify left;
+}
+
+.textbox{
+    margin: 3%;
+}
+
+p{
+    font-size: 14px;
+}
+
+#tarih{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+span{
+    font-weight: lighter;
+}
+
+.allvideo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;    
+}
+
+.video {
+    height: 42%;
+    margin: 2%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px black;
+    overflow: hidden;
+    width: 94%;
+  }
+  footer{
+    color: aliceblue;
+    margin: 2%;
+  }
